@@ -1,0 +1,174 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: black;
+    font-family: "Bellota", sans-serif;
+}
+
+.heading {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.heading:hover {
+    transform: scale(1.1);
+    color: cyan;
+    transition: all 0.5s;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 14px 16px;
+}
+
+.nav-links a:hover:not(.active) {
+    color: cyan;
+
+}
+
+.nav-links li a.active {
+    color: cyan;
+    text-decoration: overline;
+}
+
+#header {
+    background-image: url("https://media.giphy.com/media/xT8qBfjJhOmNPTVWU0/giphy.gif");
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+
+#header img {
+    display: block;
+    width: 250px;
+    margin: auto;
+    border-radius: 100%;
+    box-shadow: 0px 20px 20px cyan;
+}
+
+#header img:hover {
+    transform: scale(1.1);
+}
+
+#header p {
+    font-size: 24pt;
+    color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section {
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+h1 {
+    font-size: 15pt;
+    color: #ffffff;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+
+h1 span {
+    border: 3px solid #ff00bf;
+    border-radius: 8px;
+    background-color: black;
+    padding: 12px;
+}
+
+.inline {
+    display: flex;
+}
+
+.abt-me {
+    padding: 20px;
+    font-size: 15pt;
+}
+
+.abt-me a img:hover {
+    transform: scale(0.9);
+}
+
+.contact-me {
+    display: flex;
+}
+
+.form {
+    padding: 20px;
+}
+
+.socials {
+    text-align: center;
+}
+
+.socials a {
+    text-decoration: none;
+}
+
+.socials a img {
+    width: 50px;
+    border-radius: 100%;
+}
+
+.socials a img:hover {
+    transform: scale(0.9);
+}
+
+input,
+textarea,
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 8px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    font-size: 20pt;
+    background-color: pink;
+    border-color: #ff00bf;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
